@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillConnect.Api", "SkillConnect.Api\SkillConnect.Api.csproj", "{23D2EDE6-AEF2-2CB8-4B53-16EC5300D8FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23D2EDE6-AEF2-2CB8-4B53-16EC5300D8FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D2EDE6-AEF2-2CB8-4B53-16EC5300D8FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D2EDE6-AEF2-2CB8-4B53-16EC5300D8FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D2EDE6-AEF2-2CB8-4B53-16EC5300D8FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CCCEE09-C17B-41EF-99E5-7EA52BD1A1C0}
+	EndGlobalSection
+EndGlobal
