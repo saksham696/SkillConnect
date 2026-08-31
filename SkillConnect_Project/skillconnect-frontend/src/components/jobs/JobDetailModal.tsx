@@ -62,7 +62,7 @@ export default function JobDetailModal({ job, open, onClose }: JobDetailModalPro
       }
 
       await privateApi.post("/api/jobapplication/apply", formData, {
-        headers: { "Content-Type": "multipart/form-data" },
+        headers: { "Content-Type": undefined },
       });
 
       setMessage({ type: "success", text: `Application submitted for ${job.title}!` });

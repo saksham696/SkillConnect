@@ -59,6 +59,7 @@ public class JobApplicationRepository : IJobApplicationRepository
 
         var application = new JobApplication
         {
+            ApplicationJob = job,
             AppliedJobId = request.JobId,
             AppliedById = applicantUserId,
             ApplicationDate = DateTime.UtcNow,
